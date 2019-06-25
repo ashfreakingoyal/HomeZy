@@ -1,0 +1,122 @@
+.navbar {
+    opacity: 0.5;
+    border-bottom: 5px solid #5b74e4;
+}
+
+
+
+.main-image {
+    position: relative;
+    width: 100%;
+    background: url("../images/home-main.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.3);
+    height: 500px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.features-header,
+.services-header,
+.about-header,
+.contact-header {
+    text-align: center;
+    -webkit-text-decoration: hotpink double underline;
+    text-decoration: hotpink double underline;
+}
+
+
+.features-info,
+.about-info,
+form {
+    width: 80%;
+    margin: auto;
+}
+
+.features-info .info {
+    height: 400px;
+}
+
+.info-container {
+    margin: 5px;
+}
+
+.info-icon {
+    font-size: 60px;
+    color: blue;
+}
+
+.info-header h2 {
+    font-size: 40px;
+}
+
+.info-main {
+    font-size: 25px;
+}
+
+
+.about-image,
+.about-content {
+    max-height: 400px;
+}
+
+.about-img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.page-footer {
+    background: #333333;
+    color: white;
+}
+
+.footer-copyright {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+}
+
+/* Hover effects */
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.hvr-fade {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    overflow: hidden;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: color, background-color;
+    transition-property: color, background-color;
+}
+
+.hvr-fade:hover,
+.hvr-fade:focus,
+.hvr-fade:active {
+    background-color: white;
+    color: blue;
+}
