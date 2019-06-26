@@ -12,12 +12,12 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 500px;
+    min-height: 500px;
 }
 
 .overlay {
     background: rgba(0, 0, 0, 0.3);
-    height: 500px;
+    min-height: 500px;
     text-align: center;
     font-weight: bold;
 }
@@ -40,7 +40,7 @@ form {
 }
 
 .features-info .info {
-    height: 400px;
+    min-height: 400px;
 }
 
 .info-container {
