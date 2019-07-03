@@ -4,18 +4,6 @@
     box-shadow: 0 0 4px grey;
 }
 
-.navbar-brand {
-    color: dodgerblue;
-    transition: color 1s ease 0s;
-}
-
-.navbar-nav li a {
-    color: blue;
-    transition: color 1s ease 0s;
-}
-
-
-
 
 .main-image {
     position: relative;
@@ -131,4 +119,14 @@ form {
 .hvr-fade:active {
     background-color: white;
     color: blue;
+}
+
+@media(max-width: 512px) {
+
+    .navbar {
+        background-color: #333;
+        transition: background-color 1s ease 0s;
+        box-shadow: 0 0 4px grey;
+    }
+
 }
